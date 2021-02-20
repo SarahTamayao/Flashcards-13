@@ -15,6 +15,7 @@
 		CEE7BA6525E1B5B600D19A04 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEE7BA6325E1B5B600D19A04 /* LaunchScreen.storyboard */; };
 		CEE7BA7025E1B5B800D19A04 /* FlashcardsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE7BA6F25E1B5B800D19A04 /* FlashcardsTests.swift */; };
 		CEE7BA7B25E1B5B800D19A04 /* FlashcardsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE7BA7A25E1B5B800D19A04 /* FlashcardsUITests.swift */; };
+		CEE7BA8C25E1BC3100D19A04 /* 25-255121_matrix-5k-iphone-7-wallpaper-1080-1920.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CEE7BA8B25E1BC3100D19A04 /* 25-255121_matrix-5k-iphone-7-wallpaper-1080-1920.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		CEE7BA7625E1B5B800D19A04 /* FlashcardsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FlashcardsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CEE7BA7A25E1B5B800D19A04 /* FlashcardsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlashcardsUITests.swift; sourceTree = "<group>"; };
 		CEE7BA7C25E1B5B800D19A04 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CEE7BA8B25E1BC3100D19A04 /* 25-255121_matrix-5k-iphone-7-wallpaper-1080-1920.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "25-255121_matrix-5k-iphone-7-wallpaper-1080-1920.jpg"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +108,7 @@
 				CEE7BA6125E1B5B600D19A04 /* Assets.xcassets */,
 				CEE7BA6325E1B5B600D19A04 /* LaunchScreen.storyboard */,
 				CEE7BA6625E1B5B600D19A04 /* Info.plist */,
+				CEE7BA8B25E1BC3100D19A04 /* 25-255121_matrix-5k-iphone-7-wallpaper-1080-1920.jpg */,
 			);
 			path = Flashcards;
 			sourceTree = "<group>";
@@ -231,6 +234,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CEE7BA8C25E1BC3100D19A04 /* 25-255121_matrix-5k-iphone-7-wallpaper-1080-1920.jpg in Resources */,
 				CEE7BA6525E1B5B600D19A04 /* LaunchScreen.storyboard in Resources */,
 				CEE7BA6225E1B5B600D19A04 /* Assets.xcassets in Resources */,
 				CEE7BA6025E1B5A700D19A04 /* Main.storyboard in Resources */,
