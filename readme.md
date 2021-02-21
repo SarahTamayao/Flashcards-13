@@ -1,4 +1,4 @@
-## Flashcards
+#  ## Flashcards
 
 ## Lab 1
 
@@ -7,7 +7,8 @@ A simple iOS flashcards application where the user is presented a flashcard ques
 
 ### App Walk-though
 
-<img src="https://im4.ezgif.com/tmp/ezgif-4-e37a991d2d25.gif" width=200><br>
+![](https://i.imgur.com/x7L4oXu.gif)
+
 
 ## Required
 - [x] Create New Project in Xcode
