@@ -10,7 +10,7 @@ It's been updated to now show the user a creation screen, give the user the abil
 
 ### App Walk-though
 
-![](https://i.imgur.com/4r3deAp.gif)
+![Flashcards](https://user-images.githubusercontent.com/26170312/110224084-95ede980-7ea6-11eb-8ed9-91ef8bf1c07e.gif)
 
 
 ## Required
