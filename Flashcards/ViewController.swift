@@ -57,5 +57,30 @@ class ViewController: UIViewController {
             questionLabel.isHidden = false
         }
     }
+    
+    func updateFlashcard(question: String, answer: String, extraAnswerOne: String?, extraAnswerTwo: String?) {
+        questionLabel.text = question
+        answerLabel.text = answer
+        
+        wrongButton.setTitle(extraAnswerOne, for: .normal)
+        rightButton.setTitle(answer, for: .normal)
+        wrongButton2.setTitle(extraAnswerTwo, for: .normal)
+    }
+    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        
+        // We know the destination of the segue is the navigation controller
+        let navigationController = segue.destination as! UINavigationController
+        
+        // We know the navigation controller only contains a creation view controller
+        let creationController = navigationController.topViewController as! CreationViewController
+        
+        // Set the flashcardsController property to self
+        creationController.flashcardsController = self
+        if segue.identifier == "EditSegue"{
+            creationController.initialQuestion = questionLabel.text
+            creationController.initialAnswer = answerLabel.text
+        }
+    }
 }
 
