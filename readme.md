@@ -12,7 +12,6 @@ It's been updated to now show the user a creation screen, give the user the abil
 
 ![](https://i.imgur.com/QXcbpNu.gif)
 
-
 ## Required
 - [x] User can open the creation screen
 - [x] User can cancel out of the creation screen
