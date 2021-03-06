@@ -10,7 +10,7 @@ It's been updated to now show the user a creation screen, give the user the abil
 
 ### App Walk-though
 
-![](https://i.imgur.com/QXcbpNu.gif)
+![](https://i.imgur.com/h2wGJbZ.gif)
 
 ## Required
 - [x] User can open the creation screen
