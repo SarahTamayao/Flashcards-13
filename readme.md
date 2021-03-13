@@ -1,4 +1,3 @@
-
 #  ## Flashcards
 
 ## Lab 2
@@ -12,6 +11,9 @@ It's been updated to now show the user a creation screen, give the user the abil
 
 ![Flashcards](https://user-images.githubusercontent.com/26170312/110224084-95ede980-7ea6-11eb-8ed9-91ef8bf1c07e.gif)
 
+### Error Message Showcase
+
+![ezgif com-gif-maker](https://user-images.githubusercontent.com/26170312/111036470-54e95e00-83ed-11eb-8eee-c990d131e265.gif)
 
 ## Required
 - [x] User can open the creation screen
