@@ -11,7 +11,7 @@ User can now browse through multiple flashcards, re-open the app to see previous
 
 ### App Walk-though
 
-<img src="![ezgif com-gif-maker](https://user-images.githubusercontent.com/26170312/111405613-31513c80-86a7-11eb-9b7f-7a8b88d8b588.gif)" width=200><br>
+![ezgif com-gif-maker](https://user-images.githubusercontent.com/26170312/111405658-40d08580-86a7-11eb-9426-a7a8d4c5c5c3.gif)
 
 ## Required
 - [x] User can browse through multiple flashcards
