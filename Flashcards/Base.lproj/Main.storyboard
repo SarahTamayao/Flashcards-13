@@ -49,6 +49,14 @@
                                             <segue destination="4hd-T9-pvI" kind="presentation" identifier="EditSegue" id="n6i-cL-Lhs"/>
                                         </connections>
                                     </button>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RNL-Qa-YEe">
+                                        <rect key="frame" x="0.0" y="90" width="30" height="30"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <state key="normal" title="❌"/>
+                                        <connections>
+                                            <action selector="didOnTapDelete:" destination="BYZ-38-t0r" eventType="touchUpInside" id="cpF-a9-6rN"/>
+                                        </connections>
+                                    </button>
                                 </subviews>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                 <gestureRecognizers/>
@@ -92,6 +100,36 @@
                                     <action selector="onTapOption3:" destination="BYZ-38-t0r" eventType="touchUpInside" id="4hy-st-Yf8"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UCf-Zc-isM">
+                                <rect key="frame" x="309" y="552" width="70" height="48"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.0" green="0.54271459099999997" blue="0.05303089482" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                <state key="normal" title="Next">
+                                    <color key="titleColor" red="0.0" green="0.1299185591" blue="0.63705644699999997" alpha="0.84705882349999995" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <state key="disabled">
+                                    <color key="titleColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <action selector="didTapOnNext:" destination="BYZ-38-t0r" eventType="touchUpInside" id="hOv-nE-yWB"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xXi-8e-plF">
+                                <rect key="frame" x="39" y="551" width="66" height="48"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.0" green="0.54271459099999997" blue="0.05303089482" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                <state key="normal" title="Prev">
+                                    <color key="titleColor" red="0.0" green="0.1299185591" blue="0.63705644699999997" alpha="0.84705882349999995" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <state key="disabled">
+                                    <color key="titleColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <action selector="didTapOnPrev:" destination="BYZ-38-t0r" eventType="touchUpInside" id="wkJ-CZ-hLJ"/>
+                                </connections>
+                            </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2Ga-be-aNc">
                                 <rect key="frame" x="179" y="548" width="56" height="51"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -104,6 +142,21 @@
                                     <segue destination="4hd-T9-pvI" kind="presentation" id="3SA-uy-fGf"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wYJ-xH-Y1S">
+                                <rect key="frame" x="165" y="670" width="85" height="48"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.0" green="0.54271459099999997" blue="0.05303089482" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                <state key="normal" title="Reset">
+                                    <color key="titleColor" red="0.0" green="0.1299185591" blue="0.63705644699999997" alpha="0.84705882349999995" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <state key="disabled">
+                                    <color key="titleColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <action selector="didTapOnReset:" destination="BYZ-38-t0r" eventType="touchUpInside" id="i1v-Z7-xFV"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -111,6 +164,8 @@
                     <connections>
                         <outlet property="answerLabel" destination="St1-Nx-JVs" id="a4w-DV-vV3"/>
                         <outlet property="card" destination="kRT-9K-VOd" id="cek-qe-hOm"/>
+                        <outlet property="nextButton" destination="UCf-Zc-isM" id="90K-0v-j3S"/>
+                        <outlet property="prevButton" destination="xXi-8e-plF" id="FXQ-6t-Teg"/>
                         <outlet property="questionLabel" destination="gmJ-NZ-33B" id="Yrh-qc-okr"/>
                         <outlet property="rightButton" destination="BDO-Wc-3cy" id="TTm-HX-p1t"/>
                         <outlet property="wrongButton" destination="elV-oP-RFk" id="TT7-Ml-pzm"/>
