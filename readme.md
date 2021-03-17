@@ -1,26 +1,23 @@
 #  ## Flashcards
 
-## Lab 2
+## Lab 3
 
 ### App Description
 A simple iOS flashcards application where the user is presented a flashcard question and given 3 choices. If the user chooses the wrong answer, the answer is hidden. If the user chooses the right answer, the flashcard question is hidden and shows the answer.
 
 It's been updated to now show the user a creation screen, give the user the ability to dismiss the screen, passes data, shows the user an error if the question or answers are blank, gives the option to edit an existing flashcard, and gives the user the ability to create his/her own multiple choice question in the creation screen.
 
+User can now browse through multiple flashcards, re-open the app to see previously created flashcards, delete flashcards, edit existing flashcards and can store multiple choice questions.
+
 ### App Walk-though
 
-![Flashcards](https://user-images.githubusercontent.com/26170312/110224084-95ede980-7ea6-11eb-8ed9-91ef8bf1c07e.gif)
-
-### Error Message Showcase
-
-![ezgif com-gif-maker](https://user-images.githubusercontent.com/26170312/111036470-54e95e00-83ed-11eb-8eee-c990d131e265.gif)
+<img src="![ezgif com-gif-maker](https://user-images.githubusercontent.com/26170312/111405613-31513c80-86a7-11eb-9b7f-7a8b88d8b588.gif)" width=200><br>
 
 ## Required
-- [x] User can open the creation screen
-- [x] User can cancel out of the creation screen
-- [x] User can enter a new question and answer in the creation screen to then show it on the flashcard
+- [x] User can browse through multiple flashcards
+- [x] User can re-open the app and see previously created flashcards
 - [x] Push code to GitHub
 ## Optional
-- [x] User gets an error if they try to create a new flashcard with no question or answer
+- [x] User can delete a flashcard
 - [x] User can edit existing flashcard
-- [x] User can add multiple choice answers in the creation screen
+- [x] User can store multiple choice questions
