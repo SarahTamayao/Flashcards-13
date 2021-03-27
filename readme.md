@@ -13,7 +13,7 @@ Edit part 2: User can now browse through multiple flashcards, re-open the app to
 Edit part 3: User can now see an app icon, a splash screen, a flip animation when showing the answer, and a slide animation going to the next and previous flashcard. There are also extra features, the right answer's location is now randomized, the app is now responsive, and they should see a nicer flashcard with rounded corners, shadows, and animating when showing for the first time.
 
 ### App Walk-though
-https://user-images.githubusercontent.com/26170312/112736507-a8999280-8f29-11eb-9fed-2efd094491bb.mp4
+![ezgif com-gif-maker](https://user-images.githubusercontent.com/26170312/112736519-b9e29f00-8f29-11eb-888b-fe62de48d2e0.gif)
 ## Required
 - [x] User should see the app icon 
 - [x] User should see a splash screen
